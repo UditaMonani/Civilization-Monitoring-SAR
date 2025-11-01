@@ -1,8 +1,8 @@
 # Civilization Monitoring using SAR and Optical Satellite Imagery
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/7_final_comparison.png" alt="Final Comparison Plot" width="800"/>
-</p>
+</p> -->
 
 This project presents a complete data science workflow for monitoring urbanization by fusing Sentinel-1 (SAR) and Sentinel-2 (Optical) satellite data. It uses a Random Forest classifier to process and classify imagery, automatically distinguishing between 'Urban' and 'Non-Urban' land cover.
 
@@ -131,4 +131,5 @@ The feature importance plot below highlights that the **SAR backscatter intensit
 - **Use GeoTIFF Data:** The primary limitation is the use of `.png` files, which lack the essential near-infrared (NIR) and short-wave infrared (SWIR) bands. The next step is to adapt this pipeline to use original GeoTIFF satellite files for scientifically accurate calculation of spectral indices.
 - **Deep Learning Models:** A U-Net or other CNN-based segmentation model could be implemented for potentially higher accuracy and better spatial context awareness.
 - **Time-Series Analysis:** The project could be extended to process images from multiple years to perform change detection and quantify the rate of urbanization over time.
+
 - **Expand Dataset:** Future work could involve classifying more land-use types (e.g., water, barren land, forest) by using the full, multi-class dataset.
