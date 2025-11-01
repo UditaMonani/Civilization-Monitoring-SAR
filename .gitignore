@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local IDE/editor configuration files
+.vscode/
+.idea/
+
+# Data and Output folders - Do not track the contents of these folders
+# We only track the folders themselves using a placeholder file.
+project_outputs/*
+!project_outputs/placeholder.txt
+
+data/urban/s1/*
+!data/urban/s1/placeholder.txt
+
+data/urban/s2/*
+!data/urban/s2/placeholder.txt
+
+# If you have other data folders
+# data/rural/*
+# !data/rural/placeholder.txt
